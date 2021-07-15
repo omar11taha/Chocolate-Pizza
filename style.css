@@ -1,28 +1,148 @@
+*{
+padding: 0;
+box-sizing: border-box;
+/* margin:auto; */
+
+}
+.header1{
+    height: 100px;
+    padding-left: 100px;
+   display: inline-block;
+   
+}
 .header1 img  {
 float:left;
 padding:20px;
 position:relative;
+/* height: 500px; */
 }
 
 .header1 h2{
     position:absolute;
-    float:none;
-    padding-left: 5%;
+    /* float:none; */
+    /* padding-left: 5%; */
+    /* padding-top:0px ; */
+    height: 1px;
+    padding-left: 65px;
+    /* margin-left: 200; */
+    font-family: 'Pacifico', cursive;
+    margin-top: 10px;
+    
+
 }
-.header1 p{
+.header1 h6{
     position:absolute;
     float:none;
     padding-left: 5%;
-    padding-bottom: 220%;
+    /* padding-bottom: 220%; */
+    padding-top: 20px ;
+    height: 4px;
 }
 
 nav{
     float:right;
-    padding:20px
-    position:absolute;
-}
+    padding:20px;
+    position:relative;
+    /* margin-bottom: 500px; */
+    padding-right: 100px;
 
-h1{
-    float:left;
-    padding-top: 100px;
+
+}
+hr{
+    /* border: 0px; */
+    /* border: 10px solid gray; */
+    /* transform: rotateX(180dec); */
+    /* height: 10px;background: url(http://ibrahimjabbari.com/english/images/hr-11.png)
+repeat-x 0 0;border: 10px;  transform: rotate(180dec);*/
+background-image: url(img/hr-img.png);
+height: 20px;
+margin-right: 90px;
+margin-left: 110px;
+} 
+
+main h1{
+    /* float:left; */
+    padding-top: 50px;
+    margin-left: 110px;
+    height: 3px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 50px;
+}
+.p1{
+    margin-left: 110px;
+    display: inline-block;
+}
+#img1{
+    float:right;
+    padding-top: 0px;
+    margin-right: 170px;
+    display: inline;
+}
+/* section #img1 img{
+    /* padding-right: 200px; */
+    /* margin-right: 300px;
+} */ 
+.p2{
+    float:right;
+    padding-top: 0px;
+    margin-right: -80px;
+    display: inline;
+    margin-top: 0px;
+}
+.img2{
+    margin-left: 110px;
+    width: 85%;
+}
+#par3{
+    margin-left: 110px;
+    margin-right: 110px;
+    text-indent: 5%;
+}
+#choco{
+    margin-left: 300px;
+    margin-right: 300px;
+    height:90px;
+    background-image: url(img/list-bg.png);
+    height: 220px;
+    width: 700px;
+    margin-bottom: 30px;
+    box-sizing: content-box;
+}
+#div{
+    float:right;
+display: inline-block;
+padding-bottom: 100px;
+}
+#div2{
+    display: inline-block;
+}
+#img2{
+    margin-left: 110px;
+    display: inline-block;
+    margin-top:50px ;
+}
+h3{
+    display: inline-block;
+    margin-left: 20px;
+    /* padding-top: -50px; */
+}
+.p3{
+    display: inline-block;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+#hr{
+    height: 0px;
+    /* display: inline-block; */
+    /* margin-right: 700px; */
+    margin-bottom: -30px;
+    /* background-color: rgb(206, 205, 205); */
+}
+#img3{
+    display: inline-block;
+    margin-left: 650px;
+    margin-bottom: 20px;
+}
+.p4,.p5{
+text-align: center;
 }
