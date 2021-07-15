@@ -1,0 +1,28 @@
+.header1 img  {
+float:left;
+padding:20px;
+position:relative;
+}
+
+.header1 h2{
+    position:absolute;
+    float:none;
+    padding-left: 5%;
+}
+.header1 p{
+    position:absolute;
+    float:none;
+    padding-left: 5%;
+    padding-bottom: 220%;
+}
+
+nav{
+    float:right;
+    padding:20px
+    position:absolute;
+}
+
+h1{
+    float:left;
+    padding-top: 100px;
+}
